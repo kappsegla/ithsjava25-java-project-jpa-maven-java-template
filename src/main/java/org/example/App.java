@@ -6,8 +6,6 @@ public class App {
     }
 
     public static int add(int a, int b) {
-        int[] intArray = {a,b};
-        int sum = intArray[0] + intArray[1];
-        return sum;
+        return a + b;
     }
 }
